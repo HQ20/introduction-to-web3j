@@ -1,0 +1,16 @@
+# key file
+UTC*.json
+
+# nodejs modules
+node_modules/
+
+# java dependencies
+target/
+
+# misc
+.env
+.idea/
+
+out/
+
+build/

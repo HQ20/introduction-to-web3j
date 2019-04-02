@@ -1,0 +1,19 @@
+{
+    "name": "introduction-to-web3j",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle-config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "deploy": "scripts/local_with_node.sh",
+        "sol-compile": "mkdir out/ && solc contracts/SimpleStorage.sol --bin --abi --optimize -o out/"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ganache-cli": "^6.4.1",
+        "solc": "^0.5.7",
+        "truffle": "^5.0.10"
+    }
+}
